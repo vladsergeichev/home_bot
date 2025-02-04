@@ -9,5 +9,4 @@ async def set_commands(bot: Bot):
             description='Начало'
         )
     ]
-
     await bot.set_my_commands(commands, BotCommandScopeDefault())
